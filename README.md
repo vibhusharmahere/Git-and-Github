@@ -4,13 +4,13 @@ Git is a free and open-source version control system.
 Version control is the management of changes to documents, computer programs, large web sites, and other collection of information.
 
 ## Some Terms
-  •	Directory: Folder  
-  •	Terminal or Command Line: Interface for text commands  
-  •	CLI: Command Line Interface  
-  •	cd: Change Directory  
-  •	Code Editor: Word Processor for Writing Code  
-  •	Repository: Project, or the folder/place where your project is kept  
-  •	GitHub: A website to host your repositories online  
+  _•	Directory:_ Folder  
+  _•	Terminal or Command Line:_ Interface for text commands  
+  _•	CLI:_ Command Line Interface  
+  _•	cd:_ Change Directory  
+  _•	Code Editor:_ Word Processor for Writing Code  
+  _•	Repository:_ Project, or the folder/place where your project is kept  
+  _•	GitHub:_ A website to host your repositories online  
 
 ## Git Commands
   •	clone: bring a repository that is hosted somewhere like GitHub into a folder on your local machine  
