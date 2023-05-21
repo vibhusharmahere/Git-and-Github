@@ -1,41 +1,41 @@
 # Git and GitHub
 
-Git is a free and open-source version control system.
+Git is a free and open-source version control system.  
 Version control is the management of changes to documents, computer programs, large web sites, and other collection of information.
 
 ## Some Terms
-  •	Directory: Folder
-  •	Terminal or Command Line: Interface for text commands
-  •	CLI: Command Line Interface
-  •	cd: Change Directory
-  •	Code Editor: Word Processor for Writing Code
-  •	Repository: Project, or the folder/place where your project is kept
-  •	GitHub: A website to host your repositories online
+  •	Directory: Folder  
+  •	Terminal or Command Line: Interface for text commands  
+  •	CLI: Command Line Interface  
+  •	cd: Change Directory  
+  •	Code Editor: Word Processor for Writing Code  
+  •	Repository: Project, or the folder/place where your project is kept  
+  •	GitHub: A website to host your repositories online  
 
 ## Git Commands
-  •	clone: bring a repository that is hosted somewhere like GitHub into a folder on your local machine
-  •	add: track your files and changes in Git
-  •	commit: save your files in Git
-  •	push: upload git commits to a remote repo, like GitHub
-  •	pull: download changes from remote repo to your local machine, the opposite of push
+  •	clone: bring a repository that is hosted somewhere like GitHub into a folder on your local machine  
+  •	add: track your files and changes in Git  
+  •	commit: save your files in Git  
+  •	push: upload git commits to a remote repo, like GitHub  
+  •	pull: download changes from remote repo to your local machine, the opposite of push  
 
 ## Using Git in Local Machine
-  •	git --version: running this in the terminal will give you the current version of the Git
+  •	git --version: running this in the terminal will give you the current version of the Git  
 
-  •	Make a new repository on GitHub to be worked upon in local machine, or make a copy of a repository which already exists on GitHub
+  •	Make a new repository on GitHub to be worked upon in local machine, or make a copy of a repository which already exists on GitHub  
 
-  •	To make a copy on local computer of a repository present on the GitHub, simply write 
-    git clone “SSH/HTML link copied from the GitHub”
-    You will get the SSH/HTML link of the repository on the page of the repository
+  •	To make a copy on local computer of a repository present on the GitHub, simply write   
+    	git clone “SSH/HTML link copied from the GitHub”  
+    	You will get the SSH/HTML link of the repository on the page of the repository  
 
-  •	ls -la: list all the file and folders in the directory, whether hidden or not
-    The hidden .git folder keeps a record of all the changes that have been made in the repository
+  •	ls -la: list all the file and folders in the directory, whether hidden or not  
+    	The hidden .git folder keeps a record of all the changes that have been made in the repository  
 
-  •	git status: shows all the file that are updated, created or deleted but have not been saved in a commit yet
+  •	git status: shows all the file that are updated, created or deleted but have not been saved in a commit yet  
 
-  •	We have to tell the git to add the file to its tracking system
-    git add .: this tells the git to track all the files in the repository. We may use,
-    git add “filename”: to track the changes of a particular file. The full stop/period in the first command denotes all the files
+  •	We have to tell the git to add the file to its tracking system  
+    	git add .: this tells the git to track all the files in the repository. We may use,  
+    	git add “filename”: to track the changes of a particular file. The full stop/period in the first command denotes all the files  
 
   •	git commit -m “heading” -m “description”: this command will commit the files inside the branch (will explain later). The first -m defines the heading of the commit, and the second m defines the description of the commit. It can be seen similar to the subject line and actual content of a mail
 
