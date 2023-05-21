@@ -4,53 +4,53 @@ Git is a free and open-source version control system.
 Version control is the management of changes to documents, computer programs, large web sites, and other collection of information.
 
 ## Some Terms
-  _•	Directory:_ Folder  
-  _•	Terminal or Command Line:_ Interface for text commands  
-  _•	CLI:_ Command Line Interface  
-  _•	cd:_ Change Directory  
-  _•	Code Editor:_ Word Processor for Writing Code  
-  _•	Repository:_ Project, or the folder/place where your project is kept  
-  _•	GitHub:_ A website to host your repositories online  
+  **•	Directory:** Folder  
+  **•	Terminal or Command Line:** Interface for text commands  
+  **•	CLI:** Command Line Interface  
+  **•	cd:** Change Directory  
+  **•	Code Editor:** Word Processor for Writing Code  
+  **•	Repository:** Project, or the folder/place where your project is kept  
+  **•	GitHub:** A website to host your repositories online  
 
 ## Git Commands
-  •	clone: bring a repository that is hosted somewhere like GitHub into a folder on your local machine  
-  •	add: track your files and changes in Git  
-  •	commit: save your files in Git  
-  •	push: upload git commits to a remote repo, like GitHub  
-  •	pull: download changes from remote repo to your local machine, the opposite of push  
+  **•	clone:** bring a repository that is hosted somewhere like GitHub into a folder on your local machine  
+  **•	add:** track your files and changes in Git  
+  **•	commit:** save your files in Git  
+  **•	push: **upload git commits to a remote repo, like GitHub  
+  **•	pull: **download changes from remote repo to your local machine, the opposite of push  
 
 ## Using Git in Local Machine
-  •	git --version: running this in the terminal will give you the current version of the Git  
+  **•	git --version:** running this in the terminal will give you the current version of the Git  
 
-  •	Make a new repository on GitHub to be worked upon in local machine, or make a copy of a repository which already exists on GitHub  
+  **•	**Make a new repository on GitHub to be worked upon in local machine, or make a copy of a repository which already exists on GitHub  
 
-  •	To make a copy on local computer of a repository present on the GitHub, simply write   
-    	git clone “SSH/HTML link copied from the GitHub”  
+  **•	**To make a copy on local computer of a repository present on the GitHub, simply write   
+    	_**git clone “SSH/HTML link copied from the GitHub”  **_
     	You will get the SSH/HTML link of the repository on the page of the repository  
 
-  •	ls -la: list all the file and folders in the directory, whether hidden or not  
+  **•	ls -la:** list all the file and folders in the directory, whether hidden or not  
     	The hidden .git folder keeps a record of all the changes that have been made in the repository  
 
-  •	git status: shows all the file that are updated, created or deleted but have not been saved in a commit yet  
+  **•	git status: **shows all the file that are updated, created or deleted but have not been saved in a commit yet  
 
-  •	We have to tell the git to add the file to its tracking system  
-    	git add .: this tells the git to track all the files in the repository. We may use,  
-    	git add “filename”: to track the changes of a particular file. The full stop/period in the first command denotes all the files  
+  **•	**We have to tell the git to add the file to its tracking system  
+    	**git add .: **this tells the git to track all the files in the repository. We may use,  
+    	**git add “filename”: **to track the changes of a particular file. The full stop/period in the first command denotes all the files  
 
-  •	git commit -m “heading” -m “description”: this command will commit the files inside the branch (will explain later). The first -m defines the heading of the commit, and the second m defines the description of the commit. It can be seen similar to the subject line and actual content of a mail
+  ****•	**git commit -m “heading” -m “description”: **this command will commit the files inside the branch (will explain later). The first -m defines the heading of the commit, and the second m defines the description of the commit. It can be seen similar to the subject line and actual content of a mail
 
-  •	The commit isn’t live on the GitHub yet. To make it live on the GitHub, firstly we need to push our repository using the below command to make our local repository live on the GitHub
+  **•	**The commit isn’t live on the GitHub yet. To make it live on the GitHub, firstly we need to push our repository using the below command to make our local repository live on the GitHub
     git push: this will push the project to a repository
     Pushing the Code on GitHub
     In order to push them to GitHub under your account, you have to prove to GitHub that you are the owner of your account. For this, you have to connect your local machine to your GitHub account. 
     The way this is done is by using the SSH keys. Firstly, we will generate a SSH key in our local machine, and will share our public key with the GitHub so that the data can be shared securely between the GitHub and our local machine.
     Follow the below steps to do so:
 
-  •	Write the below in Git Bash CLI
+  **•	**Write the below in Git Bash CLI
     ssh-keygen -t rsa -b 4096 -C “email@email.com”
     The -t here defines the type of encryption. The -b defines the number of bytes. The -C defines the email address after it. Make sure to use the same email address used to make the GitHub account
 
-  •	After the above step you may be asked to enter a file in which you want to save the key, enter any name e.g., “testkey”. You may enter a passphrase for your key or leave it blank. Press enter, and your key will be generated.
+  **•**	After the above step you may be asked to enter a file in which you want to save the key, enter any name e.g., “testkey”. You may enter a passphrase for your key or leave it blank. Press enter, and your key will be generated.
 
   •	You can view the two keys generated. testkey and testkey.pub. The key without the .pub extension is our private key, and need not to be shared with anybody. We will share our public key with the GitHub, so whenever we send our data by encrypting it with our private key, GitHub understands that the data is sent by us and can decrypt the data. The underlying concept behind this is a mathematical proof that a Public Key can only be derived from a Private Key
 
